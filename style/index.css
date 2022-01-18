@@ -1,0 +1,76 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+#navigation_bar {
+  display: flex;
+  align-items:center;
+  padding: 0;
+  
+}
+#title1{
+  margin-top: 20px;
+  padding-left: 10px;
+  align-items:left;
+  padding-right: 1500px;
+}
+
+img{
+
+width: 70px;
+height: 70px;
+
+}
+
+.table{
+
+  width: 130px;
+  margin-top:  50px;
+  margin-left: 50px;
+
+}
+
+
+#books {
+
+  width: 35%;
+  height: 40%;
+  margin-top: 50px;
+  margin-right: 0px;
+  margin-left: 50px;
+  
+  
+}
+
+.bg-light {
+
+  margin-top: 370px;
+
+}
+
+
