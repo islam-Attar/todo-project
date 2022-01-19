@@ -134,4 +134,9 @@ body {
   width: 75%;
 }
 
+.contact {
+
+  display: flex;
+  justify-content: center;
+}
 
