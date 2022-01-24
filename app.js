@@ -1,4 +1,3 @@
- 
  var name = prompt("Please Enter Your Name: ");
  console.log(`User's Name: ${name.toLowerCase}`);
 
@@ -11,11 +10,9 @@
  if(age <= 0){
   alert("You entered age lower than one");
  }
-   
-   
+
   var skip = confirm("Would you like to skip the Welcoming?")
   console.log(`User's answer: ${skip}`);
-
 
   if (skip == false) {
 
@@ -32,43 +29,24 @@
    else {
     alert(`Welcome ${name}!`)
    }
-   
+
   }
+//-----------------------------------------------------------------
+// task 6
 
+function askQuestion(question) {
+  let answer = prompt(question);
 
+  if (answer == "yes" || answer == "no") {
+    return answer;
+  } else if (answer == "") {
+    return "invalid";
+  }
+}
 
+let questionOne = askQuestion("do you like programming?");
+let questionTwo = askQuestion("do you like football?");
+let questionThree = askQuestion("do you like games?");
 
-    
-
-
-   
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-//  var userAnswer = confirm("are you excited ?");
-// console.log("user answered with" + userAnswer);
-
-
-// // asking for input
-// var yourAge = prompt("what is your age?");
-// console.log("user answered with" + yourAge);
-
-// //using variables within string
-// var yourName = prompt("what is your name?");
-// console.log(`user answered with" + ${yourName}`);
-
-// alert(`welcome ${yourName}`);
-// console.log("user answered with" + yourName);
+var questionsArr = [questionOne, questionTwo, questionThree];
+console.log(questionsArr);
